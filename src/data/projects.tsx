@@ -234,7 +234,7 @@ export type Project = {
   skills: { frontend: Skill[]; backend: Skill[] };
   content: React.ReactNode | any;
   github?: string;
-  live: string;
+  live?: string;
 };
 const projects: Project[] = [
   {

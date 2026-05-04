@@ -67,3 +67,73 @@ Type error: Cannot find module 'next-themes/dist/types' or its corresponding typ
 [debug] [2026-05-04T17:17:19.301Z] Error: ENOENT: no such file or directory, open 'D:\yash\New Portfolio\.next\export-marker.json'
 [error] 
 [error] Error: An unexpected error has occurred.
+[debug] [2026-05-04T17:20:27.810Z] ----------------------------------------------------------------------
+[debug] [2026-05-04T17:20:27.812Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Yash\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js deploy
+[debug] [2026-05-04T17:20:27.813Z] CLI Version:   15.14.0
+[debug] [2026-05-04T17:20:27.813Z] Platform:      win32
+[debug] [2026-05-04T17:20:27.813Z] Node Version:  v20.20.0
+[debug] [2026-05-04T17:20:27.813Z] Time:          Mon May 04 2026 22:50:27 GMT+0530 (India Standard Time)
+[debug] [2026-05-04T17:20:27.813Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2026-05-04T17:20:29.904Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2026-05-04T17:20:29.904Z] > authorizing via signed-in user (yashchoudhari2080@gmail.com)
+[debug] [2026-05-04T17:20:29.904Z] [iam] checking project yash-portfolio-1f5 for permissions ["firebase.projects.get","firebasehosting.sites.update"]
+[debug] [2026-05-04T17:20:29.906Z] Checked if tokens are valid: true, expires at: 1777918326556
+[debug] [2026-05-04T17:20:29.906Z] Checked if tokens are valid: true, expires at: 1777918326556
+[debug] [2026-05-04T17:20:29.907Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects/yash-portfolio-1f5:testIamPermissions [none]
+[debug] [2026-05-04T17:20:29.907Z] >>> [apiv2][(partial)header] POST https://cloudresourcemanager.googleapis.com/v1/projects/yash-portfolio-1f5:testIamPermissions  x-goog-user-project=yash-portfolio-1f5
+[debug] [2026-05-04T17:20:29.907Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/yash-portfolio-1f5:testIamPermissions {"permissions":["firebase.projects.get","firebasehosting.sites.update"]}
+[debug] [2026-05-04T17:20:31.659Z] <<< [apiv2][status] POST https://cloudresourcemanager.googleapis.com/v1/projects/yash-portfolio-1f5:testIamPermissions 200
+[debug] [2026-05-04T17:20:31.660Z] <<< [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/yash-portfolio-1f5:testIamPermissions {"permissions":["firebase.projects.get","firebasehosting.sites.update"]}
+[debug] [2026-05-04T17:20:31.661Z] Checked if tokens are valid: true, expires at: 1777918326556
+[debug] [2026-05-04T17:20:31.661Z] Checked if tokens are valid: true, expires at: 1777918326556
+[debug] [2026-05-04T17:20:31.662Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/yash-portfolio-1f5 [none]
+[debug] [2026-05-04T17:20:32.618Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/yash-portfolio-1f5 200
+[debug] [2026-05-04T17:20:32.618Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/yash-portfolio-1f5 {"projectId":"yash-portfolio-1f5","projectNumber":"383128182415","displayName":"Yash Portfolio","name":"projects/yash-portfolio-1f5","resources":{"hostingSite":"yash-portfolio-1f5"},"state":"ACTIVE","etag":"1_ba1fb37e-0cf7-4952-8a6f-2d080268d10f"}
+[info] 
+   Thank you for trying our early preview of Next.js support on Firebase Hosting.
+   During the preview, support is best-effort and breaking changes can be expected. Proceed with caution.
+   The integration is known to work with Next.js version 12 - 15.0. You may encounter errors.
+
+   Documentation: https://firebase.google.com/docs/hosting/frameworks/nextjs
+   File a bug: https://github.com/firebase/firebase-tools/issues/new?template=bug_report.md
+   Submit a feature request: https://github.com/firebase/firebase-tools/issues/new?template=feature_request.md
+
+   We'd love to learn from you. Express your interest in helping us shape the future of Firebase Hosting: https://goo.gle/41enW5X
+
+[debug] [2026-05-04T17:20:43.209Z] Checked if tokens are valid: true, expires at: 1777918326556
+[debug] [2026-05-04T17:20:43.210Z] Checked if tokens are valid: true, expires at: 1777918326556
+[debug] [2026-05-04T17:20:43.210Z] >>> [apiv2][query] GET https://firebasehosting.googleapis.com/v1beta1/projects/yash-portfolio-1f5/sites/yash-portfolio-1f5 [none]
+[debug] [2026-05-04T17:20:44.729Z] <<< [apiv2][status] GET https://firebasehosting.googleapis.com/v1beta1/projects/yash-portfolio-1f5/sites/yash-portfolio-1f5 200
+[debug] [2026-05-04T17:20:44.730Z] <<< [apiv2][body] GET https://firebasehosting.googleapis.com/v1beta1/projects/yash-portfolio-1f5/sites/yash-portfolio-1f5 {"name":"projects/yash-portfolio-1f5/sites/yash-portfolio-1f5","defaultUrl":"https://yash-portfolio-1f5.web.app","type":"DEFAULT_SITE"}
+[info] ▲ Next.js 16.2.2 (Turbopack)
+
+[info] - Environments: .env.local
+
+[info] 
+
+[info]   Creating an optimized production build ...
+
+[info] ✓ Compiled successfully in 11.7s
+
+[info]   Running TypeScript ...
+
+[info] Failed to type check.
+
+
+[info] ./src/data/projects.tsx:240:3
+Type error: Property 'live' is missing in type '{ id: string; category: string; title: string; src: string; screenshots: never[]; skills: { frontend: { title: string; bg: string; fg: string; icon: JSX.Element; }[]; backend: { title: string; bg: string; fg: string; icon: JSX.Element; }[]; }; github: string; content: JSX.Element; }' but required in type 'Project'.
+
+  238 | };
+  239 | const projects: Project[] = [
+> 240 |   {
+      |   ^
+  241 |     id: "data-sharing",
+  242 |     category: "Productivity",
+  243 |     title: "Data Sharing Ecosystem",
+
+[info] Next.js build worker exited with code: 1 and signal: null
+
+[debug] [2026-05-04T17:21:05.019Z] Error: ENOENT: no such file or directory, open 'D:\yash\New Portfolio\.next\export-marker.json'
+[error] 
+[error] Error: An unexpected error has occurred.
